@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dice Roll Game</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Dice Roll Game</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" role="button">Play</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h2>Roll the Dice</h2>
+        <p>Click the button below to roll four dice and see who wins!</p>
+
+        <div class="dice-container">
+            <div class="player">
+                <p>Player 1</p>
+                <div class="dice" id="dice1"></div>
+            </div>
+            <div class="player">
+                <p>Player 2</p>
+                <div class="dice" id="dice2"></div>
+            </div>
+            <div class="player">
+                <p>Player 3</p>
+                <div class="dice" id="dice3"></div>
+            </div>
+            <div class="player">
+                <p>Player 4</p>
+                <div class="dice" id="dice4"></div>
+            </div>
+        </div>
+
+        <button id="rollButton">Roll Dice</button>
+        <h3 id="winnerText">Click on Roll Dice Button!</h3>
+    </main>
+
+    <footer class="container">
+        <small>© 2025 Dice Roll Game • <a href="#">Privacy</a> • <a href="#">Terms </a></small>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
